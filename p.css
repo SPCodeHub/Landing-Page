@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cta {
+    background: #f04;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://s7ap1.scene7.com/is/image/tatapassengerperf/ev-helpline?$B-1228-488-D$&fit=crop&fmt=webp') no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 15em ;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero .btn {
+    background: #f04;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 2em 0;
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.services .service-grid {
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services .service {
+    background: url ("https://www.tatamotors.com/wp-content/themes/TataMotors/images/ev-performance.png") no-repeat center center/cover;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 2em 0;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+.testimonials .testimonial {
+    font-style: italic;
+    margin: 1em 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+#contact{
+    text-align: center;
+    padding: 2em;
+}
+/* Contact Section */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #004080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0059b3;
+}
